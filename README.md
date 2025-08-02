@@ -1,7 +1,6 @@
-# (UPDATE IN README.md) Project Title
+# Phishing Detector for Emails and URLs 
 
-(UPDATE IN README.md)
-Briefly describe the purpose/result(s) of your project, the skills you applied, and the Apply AI program.
+Researched on the scale of phishing URLs and suspicious emails, developing a phishing detector model based on over 800K rows of a dataset with specifically chosen features, all within the AI4ALL Ignite accelerator.
 
 *EXAMPLE:*
 *Uncovered and meticulously analyzed three distinct biases present in ChatGPT, employing advanced Python techniques and data analysis methodologies, all within AI4ALL's cutting-edge AI4ALL Ignite accelerator.*
