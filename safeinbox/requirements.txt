@@ -1,0 +1,12 @@
+flask
+flask-cors
+scikit-learn
+pandas
+numpy
+transformers
+torch
+textblob
+beautifulsoup4
+xgboost
+tldextract
+requests 

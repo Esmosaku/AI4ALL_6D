@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeInbox - Email Phishing Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="popup-body">
+    <div class="popup-container">
+        <div class="popup-header">
+            <div class="header-content">
+                <h1>SafeInbox</h1>
+                <span class="version">v1.0</span>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <h2>Email Phishing Scanner</h2>
+            <p id="instructionText">Open an email in Gmail and click scan to check for phishing.</p>
+            
+            <button id="scanButton" class="btn btn-large btn-primary">
+                <span>Scan Current Email</span>
+            </button>
+            
+            <div id="scanResult"></div>
+            
+            <div class="settings-section">
+                <button id="settingsToggle" class="settings-toggle">
+                    <span>API Settings</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                        <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+                
+                <div id="settingsContent" class="settings-content">
+                    <div class="form-group">
+                        <label for="apiEndpoint">Email Phishing API Endpoint:</label>
+                        <input type="url" id="apiEndpoint" placeholder="http://localhost:5003/predict">
+                        <small>For detecting phishing in email content</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="urlApiEndpoint">URL Phishing API Endpoint (Optional):</label>
+                        <input type="url" id="urlApiEndpoint" placeholder="http://localhost:5003/predict">
+                        <small>For detecting malicious URLs in emails</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button id="testConnection" class="btn btn-secondary">Test</button>
+                        <button id="saveSettings" class="btn btn-primary">Save</button>
+                        <div id="connectionResult" class="connection-result"></div>
+                        <div id="saveResult" class="save-result"></div>
+                    </div>
+                    
+                    <div class="note">
+                        <strong>Note:</strong> Provide at least one API endpoint. If no API is configured, built-in analysis is used.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
