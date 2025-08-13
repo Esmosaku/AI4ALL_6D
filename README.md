@@ -37,6 +37,6 @@ Email Datasets: [Link to Email Dataset](https://figshare.com/articles/dataset/Se
 ## Authors <!--- do not change this line -->
 
 This project was completed in collaboration with:
-- Agamjot Singh ([john.doe@example.com](mailto:email.agamjotsingh@gmail.com))
-- Esther Mosaku ([jane.smith@example.com](mailto:esmosaku@pugetsound.edu))
-- Moo Muhammed ([jane.smith@example.com](mailto:mm5747@drexel.edu))
+- Agamjot Singh ([Email](mailto:email.agamjotsingh@gmail.com))
+- Esther Mosaku ([Email](mailto:esmosaku@pugetsound.edu))
+- Moo Muhammed ([Email](mailto:mm5747@drexel.edu))
